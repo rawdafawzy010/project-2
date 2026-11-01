@@ -1,0 +1,527 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  navbar */
+
+.navbar {
+   display: flex;                    
+  align-items: center;             
+  justify-content: space-between;  
+  padding: 15px 40px;
+}
+
+/* logo*/
+
+.navbar img {
+  width: 80px; 
+}
+.navbar .links {
+  display: flex; 
+}
+.navbar .links a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px; 
+  font-weight: bold;
+}
+.navbar .links a:hover {
+  color: rgb(0, 247, 255);
+}
+
+/* hero */
+
+.hero{
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    text-align: center;
+}
+.hero>h1{
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.hero>p>a{
+    text-decoration: none;
+    color:rgb(0, 195, 255) ;
+}
+.hero>p{
+    padding-bottom: 80px;
+}
+.hero>a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    
+}
+.hero>a:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Custom List */
+
+.custom-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.custom-list li {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.custom-list i {
+    color: rgb(0, 116, 204);
+   margin-left: 10px;
+    margin-right:7px ;
+    font-size: large;
+    font-weight: bolder;
+}
+
+/* yoyo */
+
+.yoyo{
+    margin-top: 40px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.yoyo>div{
+    padding: 10px;
+    margin-left: 5px;
+    width: 50vh;
+    height: 50px;
+
+}
+.yoyo h2{
+    color:rgb(0, 116, 204) ;
+    font-weight: bolder;
+    
+}
+.yoyo p{
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+/* popo */
+
+.popo{
+     height: 100%;
+     width: 100%;
+    text-align: center;  
+    margin:auto ;
+}
+.popo{
+    width: 50%;
+    height: 40%;
+}
+.popo>h1{
+    padding-bottom: 10px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.popo>p{
+    color: gray;
+}
+
+/* image */
+
+.image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+   
+}
+.plpl i{
+    padding-right: 10px;
+}
+#kiki{
+    margin-left: 70px; 
+   
+}
+#lili{
+    margin-left: 70px; 
+}
+.image>div>img{
+    width: 31%;
+    height: 45%;
+    padding-right:30px ;
+    padding-bottom: 30px;
+}
+
+/* momo */
+.momo{
+    width: 92%;
+    height: 90%;
+    margin: auto;
+    background-color: black;
+color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.momo>img{
+    width:50% ;
+
+    height: 30%;
+    padding: 15px;
+}
+
+ 
+ .plpl {
+  width: 50%;
+  display: grid;                       
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, auto);   
+  gap: 20px;                            
+}
+
+.plpl>div {
+  padding: 20px;
+
+  border-radius: 10px;
+ 
+}
+.plpl>div>a{
+color: white;
+}
+.plpl>div>p{
+    color: gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.plpl>div>h3{
+    padding-top: 40px;
+}
+
+/* Testimonials */
+.Testimonials{
+    width: 70%;
+    height:100% ;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px;
+}
+.Testimonials>h1{
+    
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.Testimonials>p{
+    width: 50%;
+    margin: auto;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.testimonial-item {
+    display: flex;            
+    align-items: center;      
+    justify-content: center;  
+    gap: 15px;                
+    margin-top: 20px;
+}
+
+.testimonial-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-item p {
+    font-weight: bold;
+    color: gray;
+    margin: 0;
+    padding-left: 10px;
+}
+
+/* services */
+.services>div>h3>i{
+    color:rgb(0, 116, 204);
+    padding-right: 10px;
+    padding-top: 30px;
+
+}
+.services{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services>div{
+    width:28%;
+    height: 100px;
+    padding-left: 20px;
+    /* padding-top: 30px; */
+    margin-bottom: 60px;
+
+}
+.cxcx h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.services p{
+    padding-top: 10px;
+    padding-left: 35px;
+    color: gray;
+    padding-bottom: 10px;
+}
+.services a{
+    text-decoration: none;
+    color:rgb(0, 116, 204);
+    padding-left: 35px;
+    
+}
+
+/* aboutus */
+
+ .about-us {
+   display: flex;             
+   width: 90%; 
+   margin: 60px auto; 
+    gap: 30px;      
+   align-items: flex-start; 
+   margin-top: 80PX;
+}
+
+/* left-side */
+
+ .left-side {
+  width: 50%;
+}
+
+.left-side h1 {
+  font-size: 35px;
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 10px;
+}
+
+ .left-side p {
+  color: gray;
+   line-height: 1.6; 
+  margin-bottom: 30px;
+}   
+
+ .cards {
+  display: flex;
+   gap: 20px;                     
+} 
+
+ .card {
+   padding: 20px; 
+   flex: 1;                      
+}
+
+ .card i {
+  font-size: 24px;
+  color: rgb(0,116,204);
+  margin-bottom: 10px;
+  display: block;
+
+} 
+.card A{
+    text-decoration: none;
+    color: rgb(0,116,204);
+}
+
+/* right-side */
+ .right-side {
+  width: 50%;
+}
+
+ .right-side img {
+  width: 100%;
+  height: 500px;
+} 
+
+/* team */
+.team h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.members{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    /* width: 1300px; */
+    
+
+}
+
+.member img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.member i{
+    color:gray;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+.member p{
+    color:gray;
+    line-height: 30px;
+}
+.member h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:gray;
+}
+
+/* form */
+.form{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 226, 240);
+    text-align: center;
+    margin-top: 50px;
+}
+.form h1{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px purple;
+}
+.xzxz{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    margin: auto;
+    text-align: left;
+    padding: 30px;
+    
+    margin-bottom: 70px;
+}
+.xzxz h2{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-shadow: 2px 2px 5px #000;
+
+}
+input[type="text"],input[type="email"],label[for="message"]{
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: 8px 0;
+}
+input::placeholder{
+    font-size: 16px;
+}
+label{
+    font-size: 20px;
+}
+textarea{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+textarea::placeholder{
+    font-size: 16px;
+}
+button{
+    display: block;
+    width: 22%;
+    padding: 12px 10px;
+    margin: 30px auto 0;
+    border-radius: 20px;
+    background-color:rgb(0,116,204) ;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(184, 143, 184);
+    color: #000;
+}
+.rawda{
+    
+    
+    display: flex;
+}
+.rawda>div{
+    padding-right: 10px;
+    width: 50%;
+}
+
+/* last */
+.last{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    text-align: center;
+    display: flex;
+    
+    
+}
+.last div{
+    width: 30%;
+    text-align: left;
+    padding: 50px;
+}
+.last p{
+    color: gray;
+}
+.last h4{
+    padding-bottom: 10px;
+
+}
+.last a{
+    display: block;
+    color: gray;
+    text-decoration:none ;
+    padding-bottom: 3px;
+}
+.last i{
+    color: grey;
+    padding-right: 10px;
+}
+.last button{
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
